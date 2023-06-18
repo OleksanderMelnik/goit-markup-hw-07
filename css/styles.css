@@ -572,7 +572,8 @@ img {
 .btn-list {
     margin-bottom: 72px;
     justify-content: center;
-    gap: 24px;  
+    gap: 24px;
+    flex-wrap: wrap;  
 }
 
 .filter-btn {
@@ -632,6 +633,9 @@ img {
 }
 
 .img-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     margin-bottom: 8px;
 }
 
