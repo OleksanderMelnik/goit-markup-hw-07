@@ -41,7 +41,7 @@
             
             <address class="address">
             <ul class="address-list list">
-                <li class="address-item">
+                <li class="address-item info">
                     <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li class="address-item">
@@ -127,7 +127,7 @@
 
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">Effective Solutions for Your Business</h1>
+                <h1 class="hero-title">Effective Solutions For Your Business</h1>
                 <button type="button" class="hero-btn" data-modal-open  >Order Service</button>
             </div>
         </section>
@@ -195,7 +195,7 @@
             </div>
         </section>
         <section class="team">
-            <div class="container">
+            <div class="container customers-container">
                 <h2 class="webstudio-title">Our Team</h2>
                 <ul class="team-list list">
                     <li class="team-item">
@@ -237,8 +237,12 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img srcset="./images/tom-2x.jpg 2x"
-                        src="./images/tom.jpg" alt="Frontend Developer" width="264">
+                        <picture>
+                            <source srcset="./images/tom.jpg 1x,
+                                ./images/tom-2x.jpg 2x">
+                            <img src="./images/tom.jpg" alt="Frontend Developer" width="264">
+                        </picture>
+                        
                         <div class="team-name-position">
                             <h3 class="team-title title">Tom Ford</h3>
                             <p class="team-text text">Frontend Developer</p>
@@ -357,7 +361,7 @@
 
         
         <section class="customers">
-            <div class="container">
+            <div class="container customers-container">
                 <h2 class="webstudio-title">Customers</h2>
                 <ul class="customers-list list">
                     <li class="customers-item">
@@ -524,7 +528,8 @@
                                 <use href="./images/icons.svg#icon-vector"></use>
                             </svg>
                         </span>
-                        I accept the terms and conditions of the<a href="" class="span-text">Privacy Policy</a>
+                            I accept the terms and conditions of the&nbsp;
+                        <a href="" class="span-text">Privacy Policy</a>
                     </label>
                 </div>
 
