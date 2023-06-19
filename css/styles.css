@@ -622,8 +622,8 @@ img {
 .pictures-portfolio {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
     row-gap: 48px;
+    gap: 24px;
 }
 
 .container-img {
